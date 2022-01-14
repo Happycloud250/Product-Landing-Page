@@ -1,0 +1,115 @@
+body{
+        margin:0%;
+        height: 1280px;
+        display: flexbox;
+        background-color: rgba(230, 226, 221, 0.884);
+}
+
+.heading{
+        height: 9%;
+        
+        display: flex;
+        justify-content: space-between;
+        background-color: palegoldenrod;
+        
+}
+
+h1{
+        color: rgb(207, 192, 28);
+        font-size: 60px;
+        margin-left: 25px;
+        margin-top:5px;
+        font-style: oblique;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.links{
+        width:60%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        font-size: 30px;
+        font-style: italic;
+        
+        
+}
+a{
+        text-decoration: none;
+        color: rgb(6, 5, 31);
+}
+a:hover {
+        color: rgb(10, 6, 150);
+        
+        
+      }
+.mail-container{
+        display: list-item;
+        height:20%;
+        text-align: center;
+
+       
+        
+        
+}
+
+.mail-head{
+       
+       height: 40%;
+       
+        font-size: 200%;
+        
+        
+}
+.mail-input{
+        height: 30%;
+        
+        
+}
+.mail-button{
+        height: 30%;
+        
+}
+
+.email{
+        
+        width: 25%;
+        height: 50%;
+        outline: none;
+}
+.button{
+        height: 65%;
+        width:15%;
+        border-radius: 45px;
+        background-color: rgb(5, 8, 56);
+        color: lightgreen;
+}
+.video-container{
+        text-align: center;
+        height:30%;
+        
+       
+       
+
+}
+.video{
+        height: 90%;
+        width:30%;
+        border-radius: 8px;
+}
+.description{
+        
+        font-size: 30px;
+        margin-top: 4px;
+}
+.price{
+        text-align: right;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 50px;
+        font-size: 50px;
+}
+.specification{
+        height: 30%;
+        margin-top: 150px;
+        
+        font-size: 25px;
+}
